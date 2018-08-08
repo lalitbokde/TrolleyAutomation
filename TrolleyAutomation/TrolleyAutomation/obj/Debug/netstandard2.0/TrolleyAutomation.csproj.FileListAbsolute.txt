@@ -1,0 +1,14 @@
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\bin\Debug\netstandard2.0\TrolleyAutomation.deps.json
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\bin\Debug\netstandard2.0\TrolleyAutomation.dll
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\bin\Debug\netstandard2.0\TrolleyAutomation.pdb
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\TrolleyAutomation.csprojAssemblyReference.cache
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\App.xaml.g.cs
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\TrolleyAutomation.csproj.CoreCompileInputs.cache
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\TrolleyAutomation.AssemblyInfoInputs.cache
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\TrolleyAutomation.AssemblyInfo.cs
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\XamlC.stamp
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\TrolleyAutomation.dll
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\TrolleyAutomation.pdb
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\DrawerPage.xaml.g.cs
+c:\users\lalit\source\repos\TrolleyAutomation\TrolleyAutomation\TrolleyAutomation\obj\Debug\netstandard2.0\TrolleyMainPage.xaml.g.cs

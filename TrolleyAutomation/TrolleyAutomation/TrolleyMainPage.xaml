@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrolleyAutomation.TrolleyMainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Grid  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+              
+                <Grid Grid.Row="1" ColumnSpacing="0">
+                    <Grid.ColumnDefinitions  >
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+
+                        <RowDefinition Height="4*"/>
+
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5" >
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="2" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="0"  Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="4" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="0"  Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="6" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="0"  Grid.Column="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="8" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="4" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="10" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="0"  Grid.Column="5" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="12" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="6" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="14" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="7" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="16" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="8" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="18" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="9" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="20" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="22" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="11" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="24" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="12" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="26" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="13" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="28" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="14" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="30" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="15" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="32" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="16" Grid.ColumnSpan="1" Grid.RowSpan="1"  Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="34" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="0"  Grid.Column="17" Grid.ColumnSpan="1" Grid.RowSpan="1"  Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="36" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="18" Margin="0,20,0,0"  >
+
+                        <Frame  OutlineColor="AliceBlue" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Padding="0,0,0,0" >
+
+                            <Grid ColumnSpacing="0">
+                                <Grid.ColumnDefinitions  >
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="2*"/>
+
+                                </Grid.ColumnDefinitions>
+                                <!--trolley1-->
+                                <StackLayout x:Name="SLTrolley1" Orientation="Vertical"   Grid.Column="0" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley1"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley1" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0" TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley1" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley3" Orientation="Vertical"   Grid.Column="1" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley3"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley3" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley3" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley5" Orientation="Vertical"   Grid.Column="2" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley5"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley5" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley5" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley7" Orientation="Vertical"   Grid.Column="3" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley7"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley7" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley7" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley9" Orientation="Vertical"   Grid.Column="4" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley9"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley9" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley9" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+
+
+                                <StackLayout x:Name="SLTrolley11" Orientation="Vertical"   Grid.Column="5" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley11"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley11" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley11" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley13" Orientation="Vertical"   Grid.Column="6" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley13"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley13" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley13" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley15" Orientation="Vertical"   Grid.Column="7" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley15"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley15" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley15" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley17" Orientation="Vertical"   Grid.Column="8" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley17"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley17" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley17" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley19" Orientation="Vertical"   Grid.Column="9" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley19"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley19" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley19" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                <!--trolley2-->
+
+                            </Grid>
+
+                        </Frame>
+
+
+
+
+
+
+                    </StackLayout>
+                    <StackLayout  Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="1" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="2"  Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="3" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="2"  Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="5" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="2"  Grid.Column="3" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="7" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="4" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5" >
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="9" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="2"  Grid.Column="5" Grid.ColumnSpan="1" Grid.RowSpan="1" >
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="11" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                    <StackLayout  Grid.Row="2"  Grid.Column="6" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="13" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="7" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="15" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="8" Grid.ColumnSpan="1" Grid.RowSpan="1" >
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="17" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="9" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="19" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="10" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="21" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="11" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="23" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="12" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="25" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="13" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="27" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="14" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="29" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="15" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="31" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="16" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="33" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+
+                    <StackLayout  Grid.Row="2"  Grid.Column="17" Grid.ColumnSpan="1" Grid.RowSpan="1" Padding="0.5">
+                        <Button  BorderColor="Black"  BackgroundColor="#0099CC" Text="35" FontSize="11" TextColor="White" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Grid>
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
