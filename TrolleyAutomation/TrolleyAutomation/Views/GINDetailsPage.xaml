@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrolleyAutomation.Views.GINDetailsPage">
+    <ContentPage.Content>
+        <StackLayout >
+            <ScrollView>
+                <StackLayout Spacing="10" Padding="20">
+
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0"  >
+                        <Label Text="TR1-TOP SENSOR DELAY"  TextColor="Black" FontSize="Small" FontAttributes="Bold" WidthRequest="300" VerticalTextAlignment="Center" />
+                        <StackLayout Orientation="Horizontal">
+                            <Entry   FontSize="Medium"     WidthRequest="150" />
+                            <Label Text="SEC" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0"   >
+                        <Label Text="TR2-TOP SENSOR DELAY"  TextColor="Black" FontSize="Small" FontAttributes="Bold" WidthRequest="300" VerticalTextAlignment="Center" />
+                        <StackLayout Orientation="Horizontal">
+                            <Entry   FontSize="Medium"     WidthRequest="150" />
+                            <Label Text="SEC" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0" >
+                        <Label Text="TR1-TOP SENSOR RESTART DELAY"  TextColor="Black" FontSize="Small" FontAttributes="Bold" WidthRequest="300" VerticalTextAlignment="Center" />
+                        <StackLayout Orientation="Horizontal">
+                            <Entry   FontSize="Medium"     WidthRequest="150" />
+                            <Label Text="SEC" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0"  >
+                        <Label Text="TR2-TOP SENSOR RESTART DELAY"  TextColor="Black" FontSize="Small" FontAttributes="Bold" WidthRequest="300" VerticalTextAlignment="Center" />
+                        <StackLayout Orientation="Horizontal">
+                            <Entry   FontSize="Medium"     WidthRequest="150" />
+                            <Label Text="SEC" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+
+
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0" >
+                        <Label Text="TR1 START TIME (HOLD-PASS)"  TextColor="Black" FontSize="Small" FontAttributes="Bold" WidthRequest="300" VerticalTextAlignment="Center" />
+                        <StackLayout Orientation="Horizontal">
+                            <Entry   FontSize="Medium"     WidthRequest="150" />
+                            <Label Text="SEC" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0"   >
+                        <Label Text="TR2 START TIME (HOLD-PASS)"  TextColor="Black" FontSize="Small" FontAttributes="Bold"  WidthRequest="300" VerticalTextAlignment="Center" />
+                        <StackLayout Orientation="Horizontal">
+                            <Entry   FontSize="Medium"     WidthRequest="150" />
+                            <Label Text="SEC" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </StackLayout>
+
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0"  >
+                        <Label Text="NO. OF M/C IN ONE ROW"  TextColor="Black" FontSize="Small" FontAttributes="Bold" WidthRequest="300" VerticalTextAlignment="Center" />
+                        <Entry  FontSize="Medium"  WidthRequest="150" Keyboard="Numeric" />
+                    </StackLayout>
+
+                    <StackLayout  Orientation="Horizontal" Spacing="0"  >
+                        <Label Text="CENTREM/C NO. FROM TROLLEY-1"  TextColor="Black" FontSize="Small" FontAttributes="Bold" WidthRequest="300" VerticalTextAlignment="Center" />
+                        <Entry   FontSize="Large" FontAttributes="Bold"   Keyboard="Numeric" WidthRequest="150"/>
+                    </StackLayout>
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -12,6 +12,7 @@ namespace TrolleyAutomation
 		public MainPage()
 		{
 			InitializeComponent();
+            
 		}
         //protected async override void OnAppearing()
         //{

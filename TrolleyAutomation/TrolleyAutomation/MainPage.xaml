@@ -2,7 +2,7 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TrolleyAutomation"
-                  
+                MasterBehavior="Popover"  
              x:Class="TrolleyAutomation.MainPage">
     <MasterDetailPage.Master>
         <local:DrawerPage Title="Drawer"></local:DrawerPage>

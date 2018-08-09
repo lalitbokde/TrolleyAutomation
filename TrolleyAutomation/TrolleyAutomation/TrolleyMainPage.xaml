@@ -32,8 +32,8 @@
                         <ColumnDefinition Width="0.5*"/>
                         <ColumnDefinition Width="4*"/>
                     </Grid.ColumnDefinitions>
-                    
-                    <StackLayout Orientation="Horizontal" Grid.Column="0" BackgroundColor="Black">
+
+                    <StackLayout Orientation="Horizontal" Grid.Column="0" BackgroundColor="#fdf498">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="3*"/>
@@ -41,18 +41,24 @@
                                 <ColumnDefinition Width="3*"/>
                             </Grid.ColumnDefinitions>
                             <Button Grid.Column="2" Image="DoubleRight.png"  Margin="10,0,0,0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="Transparent"/>
-                           
+                            <StackLayout Orientation="Vertical" Grid.Column="1">
+                                <Label x:Name="leftForward" FontSize="Large" TextColor="Black"> </Label>
+                                <Label x:Name="leftReverse"  FontSize="Large" TextColor="Black"></Label>
+                            </StackLayout>
 
-
+                            <StackLayout Orientation="Horizontal" Grid.Column="0" >
+                               
+                                <Button  Image="CircleRed.png"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="Transparent"/>
+                            </StackLayout>
                         </Grid>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal"  Grid.Column="1" BackgroundColor="WhiteSmoke">
-                        <Label Text="SHP OFF" TextColor="White"></Label>
+                    <StackLayout Orientation="Horizontal"  Grid.Column="1" BackgroundColor="#845422">
+                        <Label Text="SHP OFF" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  TextColor="White"></Label>
 
 
                        
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal"  Grid.Column="2" BackgroundColor="Red">
+                    <StackLayout Orientation="Horizontal"  Grid.Column="2" BackgroundColor="#fdf498">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="3*"/>
@@ -61,7 +67,15 @@
                             </Grid.ColumnDefinitions>
                             <Button Grid.Column="0"  Image="DoubleLeft.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="Transparent"/>
 
+                            <StackLayout Orientation="Vertical" Grid.Column="1">
+                                <Label x:Name="rightForward" FontSize="Large" TextColor="Black"></Label>
+                                <Label x:Name="rightReverse"  FontSize="Large" TextColor="Black"></Label>
+                            </StackLayout>
 
+                            <StackLayout Orientation="Horizontal" Grid.Column="2" >
+
+                                <Button  Image="CircleGreen.png"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="Transparent"/>
+                            </StackLayout>
 
                         </Grid>
                     </StackLayout>
@@ -171,33 +185,41 @@
 
                             <Grid ColumnSpacing="0">
                                 <Grid.ColumnDefinitions  >
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
 
                                 </Grid.ColumnDefinitions>
                                 <!--trolley1-->
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="0" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
                                 <StackLayout x:Name="SLTrolley1" Orientation="Vertical"   Grid.Column="0" Grid.ColumnSpan="1" Spacing="0">
 
                                     <Label x:Name="lblTopTrolley1"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
                                     <Label x:Name="lblCenterTrolley1" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0" TextColor="White"/>
                                     <Label x:Name="lblBottomTrolley1" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
+                                </StackLayout>
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="1" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
                                 </StackLayout>
                                 <StackLayout x:Name="SLTrolley3" Orientation="Vertical"   Grid.Column="1" Grid.ColumnSpan="1" Spacing="0">
 
@@ -206,6 +228,11 @@
                                     <Label x:Name="lblBottomTrolley3" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
                                 </StackLayout>
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="2" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
                                 <StackLayout x:Name="SLTrolley5" Orientation="Vertical"   Grid.Column="2" Grid.ColumnSpan="1" Spacing="0">
 
                                     <Label x:Name="lblTopTrolley5"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
@@ -213,12 +240,24 @@
                                     <Label x:Name="lblBottomTrolley5" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
                                 </StackLayout>
+
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="3" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
                                 <StackLayout x:Name="SLTrolley7" Orientation="Vertical"   Grid.Column="3" Grid.ColumnSpan="1" Spacing="0">
 
                                     <Label x:Name="lblTopTrolley7"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
                                     <Label x:Name="lblCenterTrolley7" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
                                     <Label x:Name="lblBottomTrolley7" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
+                                </StackLayout>
+
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="4" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
                                 </StackLayout>
                                 <StackLayout x:Name="SLTrolley9" Orientation="Vertical"   Grid.Column="4" Grid.ColumnSpan="1" Spacing="0">
 
@@ -229,12 +268,23 @@
                                 </StackLayout>
 
 
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="5" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
                                 <StackLayout x:Name="SLTrolley11" Orientation="Vertical"   Grid.Column="5" Grid.ColumnSpan="1" Spacing="0">
 
                                     <Label x:Name="lblTopTrolley11"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
                                     <Label x:Name="lblCenterTrolley11" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
                                     <Label x:Name="lblBottomTrolley11" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
+                                </StackLayout>
+
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="6" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
                                 </StackLayout>
                                 <StackLayout x:Name="SLTrolley13" Orientation="Vertical"   Grid.Column="6" Grid.ColumnSpan="1" Spacing="0">
 
@@ -243,6 +293,12 @@
                                     <Label x:Name="lblBottomTrolley13" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
                                 </StackLayout>
+
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="7" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
                                 <StackLayout x:Name="SLTrolley15" Orientation="Vertical"   Grid.Column="7" Grid.ColumnSpan="1" Spacing="0">
 
                                     <Label x:Name="lblTopTrolley15"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
@@ -250,12 +306,25 @@
                                     <Label x:Name="lblBottomTrolley15" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
                                 </StackLayout>
+
+
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="8" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
                                 <StackLayout x:Name="SLTrolley17" Orientation="Vertical"   Grid.Column="8" Grid.ColumnSpan="1" Spacing="0">
 
                                     <Label x:Name="lblTopTrolley17"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
                                     <Label x:Name="lblCenterTrolley17" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
                                     <Label x:Name="lblBottomTrolley17" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
 
+                                </StackLayout>
+
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="9" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
                                 </StackLayout>
                                 <StackLayout x:Name="SLTrolley19" Orientation="Vertical"   Grid.Column="9" Grid.ColumnSpan="1" Spacing="0">
 
@@ -265,7 +334,103 @@
 
                                 </StackLayout>
                                 <!--trolley2-->
+                                <StackLayout Orientation="Vertical"   Grid.Column="10" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley21" Orientation="Vertical"   Grid.Column="10" Grid.ColumnSpan="1" Spacing="0">
 
+                                    <Label x:Name="lblTopTrolley21"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    
+                                    <Label x:Name="lblCenterTrolley21" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley121" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                                
+                                
+                                <StackLayout Orientation="Vertical"   Grid.Column="11" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley23" Orientation="Vertical"   Grid.Column="11" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley23"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley23" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley23" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                               
+                                
+                                
+                                <StackLayout Orientation="Vertical"   Grid.Column="12" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="10,25,10,60"  />
+                                </StackLayout>
+
+                                <StackLayout x:Name="SLTrolley25" Orientation="Vertical"   Grid.Column="12" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley25"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley25" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley25" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="13" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley27" Orientation="Vertical"   Grid.Column="13" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley27"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley27" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley27" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="14" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley29" Orientation="Vertical"   Grid.Column="14" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley29"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley29" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley29" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="15" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley31" Orientation="Vertical"   Grid.Column="15" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley31"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley31" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley31" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="16" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley33" Orientation="Vertical"   Grid.Column="16" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley33"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley33" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley33" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+
+
+                                <StackLayout Orientation="Vertical"   Grid.Column="17" Grid.ColumnSpan="1" Spacing="0">
+                                    <Label   BackgroundColor="Black"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  Margin="5,25,5,60"  />
+                                </StackLayout>
+                                <StackLayout x:Name="SLTrolley35" Orientation="Vertical"   Grid.Column="17" Grid.ColumnSpan="1" Spacing="0">
+
+                                    <Label x:Name="lblTopTrolley35"  Text="OFF"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  BackgroundColor="#ead61c" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+                                    <Label x:Name="lblCenterTrolley35" Text="Entry" BackgroundColor="#845422"   HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Margin="1,0,1,0"  TextColor="White"/>
+                                    <Label x:Name="lblBottomTrolley35" Text="OFF"  BackgroundColor="#ead61c"    HorizontalOptions="FillAndExpand"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="FillAndExpand" Margin="4,0,4,0"/>
+
+                                </StackLayout>
+                             
                             </Grid>
 
                         </Frame>
