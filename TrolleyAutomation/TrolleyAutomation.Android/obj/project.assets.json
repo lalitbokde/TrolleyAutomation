@@ -761,20 +761,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lalit\\.nuget\\packages\\": {}
+    "C:\\Users\\Sanmitra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation.Android\\TrolleyAutomation.Android.csproj",
+      "projectUniqueName": "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.Android\\TrolleyAutomation.Android.csproj",
       "projectName": "TrolleyAutomation.Android",
-      "projectPath": "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation.Android\\TrolleyAutomation.Android.csproj",
-      "packagesPath": "C:\\Users\\Lalit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation.Android\\obj\\",
+      "projectPath": "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.Android\\TrolleyAutomation.Android.csproj",
+      "packagesPath": "C:\\Users\\Sanmitra\\.nuget\\packages\\",
+      "outputPath": "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Lalit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sanmitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -787,8 +787,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj": {
-              "projectPath": "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj"
+            "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj": {
+              "projectPath": "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj"
             }
           }
         }
