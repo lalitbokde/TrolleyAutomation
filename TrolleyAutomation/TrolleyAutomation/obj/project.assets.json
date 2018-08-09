@@ -344,23 +344,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lalit\\.nuget\\packages\\": {},
+    "C:\\Users\\Sanmitra\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj",
+      "projectUniqueName": "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj",
       "projectName": "TrolleyAutomation",
-      "projectPath": "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj",
-      "packagesPath": "C:\\Users\\Lalit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lalit\\Source\\Repos\\TrolleyAutomation3\\TrolleyAutomation\\TrolleyAutomation\\obj\\",
+      "projectPath": "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation.csproj",
+      "packagesPath": "C:\\Users\\Sanmitra\\.nuget\\packages\\",
+      "outputPath": "E:\\Xamarin Form\\TrolleyAutomation\\TrolleyAutomation\\TrolleyAutomation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lalit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sanmitra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
