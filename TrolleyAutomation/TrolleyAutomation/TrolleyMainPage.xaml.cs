@@ -15,10 +15,10 @@ namespace TrolleyAutomation
 		public TrolleyMainPage ()
 		{
 			InitializeComponent ();
-            leftForward.Text = "-->>Forward-->>";
-            leftReverse.Text = "<<--Reverse<<--";
-            rightForward.Text = "-->>Forward-->>";
-            rightReverse.Text = "<<--Reverse<<--";
+            leftForward.Text = "-->> Forward -->>";
+            leftReverse.Text = "<<-- Reverse <<--";
+            rightForward.Text = "-->> Forward -->>";
+            rightReverse.Text = "<<-- Reverse <<--";
 
 
             SLTrolley1.IsVisible = false;
@@ -32,13 +32,13 @@ namespace TrolleyAutomation
             SLTrolley15.IsVisible = false;
             SLTrolley17.IsVisible = false;
             SLTrolley19.IsVisible = false;
-         
+
             SLTrolley21.IsVisible = false;
             SLTrolley23.IsVisible = false;
-            SLTrolley25.IsVisible = true;
+            SLTrolley25.IsVisible = false;
             SLTrolley27.IsVisible = false;
             SLTrolley29.IsVisible = false;
-            SLTrolley31.IsVisible = false;
+            SLTrolley31.IsVisible = true;
             SLTrolley33.IsVisible = false;
             SLTrolley35.IsVisible = false;
 
